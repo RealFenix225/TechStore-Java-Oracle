@@ -1,4 +1,20 @@
-target/ 
-*.log 
-.idea/ 
-*.iml 
+target/
+out/
+.idea/
+*.iml
+
+*.class
+*.jar
+*.war
+
+# --- SISTEMA Y LOGS ---
+*.log
+Thumbs.db
+.DS_Store
+
+# --- DOCUMENTACIÓN GENERADA ---
+javadoc/
+JADADOC/
+
+# --- SEGURIDAD (MÁXIMA PRIORIDAD) ---
+src/main/resources/database.properties

@@ -1,0 +1,4 @@
+# Ejemplo de configuración. Renombra este archivo a 'database.properties' y pon tus datos.
+db.url=jdbc:oracle:thin:@TU_ALIAS?TNS_ADMIN=/ruta/a/tu/wallet
+db.user=ADMIN
+db.password=TU_CONTRASEÑA_AQUI
